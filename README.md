@@ -34,7 +34,7 @@ application.
 ### Environment Variables
 
 1. Create a `.env` file in the root of your project directory.
-2. Add your bot token to the `.env` file:
+2. Add Meliora's bot token to the `.env` file:
 
 ``` DISCORD_BOT_TOKEN=YOUR_BOT_TOKEN ```
 
@@ -46,7 +46,7 @@ application.
 
 ### Bot Permissions
 
-Ensure your bot has the following permissions:
+Ensure Meliora has the following permissions:
 
 - View Audit Log
 
@@ -54,12 +54,12 @@ Ensure your bot has the following permissions:
 
 1. Go to the [Discord Developer
 Portal](https://discord.com/developers/applications).
-2. Click on your bot application.
+2. Click on the Meliora bot application.
 3. Navigate to the "OAuth2" section.
 4. Under "OAuth2 URL Generator", select "bot" in the "SCOPES" section.
 5. Select the necessary permissions in the "BOT PERMISSIONS" section.
 6. Copy the generated URL, open it in your browser, select a server, and invite
-your bot.
+   Meliora.
 
 ## Running the Bot and Web Application
 
