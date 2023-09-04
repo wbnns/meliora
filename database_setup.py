@@ -4,11 +4,12 @@ conn = sqlite3.connect('discord_metrics.db')
 cursor = conn.cursor()
 
 cursor.execute('''
-CREATE TABLE IF NOT EXISTS messages (
+CREATE TABLE IF NOT EXISTS audit_logs (
     id INTEGER PRIMARY KEY,
-    author_id TEXT NOT NULL,
-    channel_id TEXT NOT NULL,
-    content TEXT,
+    action TEXT NOT NULL,
+    user_id TEXT NOT NULL,
+    target_id TEXT NOT NULL,
+    details TEXT,
     timestamp TEXT NOT NULL
 )
 ''')

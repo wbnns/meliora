@@ -11,11 +11,11 @@ app = Flask(__name__)
 def metrics():
     conn = sqlite3.connect('discord_metrics.db')
     cursor = conn.cursor()
-    cursor.execute('SELECT * FROM messages')
-    messages = cursor.fetchall()
+    cursor.execute('SELECT * FROM audit_logs ORDER BY timestamp DESC')
+    audit_logs = cursor.fetchall()
     conn.close()
 
-    return render_template('metrics.html', messages=messages)
+    return render_template('audit_metrics.html', audit_logs=audit_logs)
 
 if __name__ == "__main__":
     app.run(debug=True)
