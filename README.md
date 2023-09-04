@@ -1,1 +1,3 @@
-# mar
+# Meliora
+
+Better Discord Insights
