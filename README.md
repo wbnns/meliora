@@ -1,6 +1,6 @@
 # Meliora
 
-Better Discord Server Insights
+*Better Discord Server Insights*
 
 Meliora is a Discord bot built with `discord.py` that captures server metrics,
 stores them in an SQLite database, and presents them via a Flask web
