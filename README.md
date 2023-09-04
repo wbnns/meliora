@@ -48,10 +48,7 @@ application.
 
 Ensure your bot has the following permissions:
 
-- Read Messages
-- Send Messages
 - View Audit Log
-- (Any other permissions required by your bot's functionality)
 
 ### Inviting the Bot
 
