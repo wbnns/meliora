@@ -1,0 +1,36 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment directories
+venv/
+*.venv/
+env/
+
+# .env file (to prevent exposing secrets)
+.env
+
+# Database (if using SQLite or similar)
+*.db
+*.sqlite
+
+# Flask session cookies
+instance/
+
+# Logs
+*.log
+
+# IDE-specific (e.g., PyCharm)
+.idea/
+
+# Other common files/folders to ignore
+*.egg-info/
+dist/
+build/
+*.egg
+*.swp
+*.swo
+*.bak
+.DS_Store
+
